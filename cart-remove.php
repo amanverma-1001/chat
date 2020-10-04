@@ -8,5 +8,5 @@ if(mysqli_query($conn,$sqli))
 header("Location:./cart.php");
 }
 else{
-echo "Item can't be removed";
+echo "Item can not be removed";
 }?>
